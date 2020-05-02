@@ -8,7 +8,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 public class Main extends JavaPlugin {
 
     public void onEnable(){
-        System.out.println(ChatColor.BOLD +"Plugin Project : ON");
+        System.out.println(ChatColor.RED + "Plugin Project : ON");
         getCommand("alert").setExecutor((CommandExecutor)new Alert());
     }
 }

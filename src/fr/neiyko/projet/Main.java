@@ -10,5 +10,4 @@ public class Main extends JavaPlugin {
         System.out.println("§6Plugin Project : §4ON");
         getCommand("alert").setExecutor((CommandExecutor)new Alert());
     }
-
 }

@@ -1,0 +1,11 @@
+name: Project2
+version: 1.0
+author: Neiyko
+main: fr.neiyko.projet.Main
+commands:
+  alert:
+    description: Custom Broadcast
+    permission: bc.use
+    aliases:
+      - bc
+      - broadcast
